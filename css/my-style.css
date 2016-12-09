@@ -1,6 +1,16 @@
+
+body {
+
+    background-color:#73d0e2;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
 h1   {
      line-height: 1.3em; color: #E44547; 
-     
+     font-family: "Times New Roman", Times, serif;
      font-size: 20px; 
      text-align: center; 
      direction: ltr;
@@ -14,6 +24,7 @@ h1   {
    }
 
 h2 {
+    font-family: "Times New Roman", Times, serif;
     font-size: 15px;
     color: #04569e;
 
@@ -23,8 +34,9 @@ p    {
 
     line-height: 1.5em; 
     color: #3A352A; 
-    font-family: &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; 
-    font-size: 15px;
+   font-family: "Times New Roman", Times, serif;
+   font-weight: bold;
+   font-size: 15px;
     text-align: left; 
     direction: ltr; 
     unicode-bidi: embed; 
@@ -40,17 +52,27 @@ p    {
 p.normal {
 
     color: #E44547; 
-    font-family: &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; 
+    font-family: "Times New Roman", Times, serif; 
     font-size: 15px; 
  }
 
 ol.points {
     color:#3A352A;
-     font-family: Helvetica Neue&#39;, Helvetica, Arial, sans-serif; 
-    font-size: 12px; 
+     font-family: "Times New Roman", Times, serif;
+    font-size: 15px; 
 
 }
 
 address {
     color:#04449e;
+    font-weight: bold;
+    font-size: 15px;
+    font-style: italic;
+}
+
+
+.footer{
+ padding-top: 30px;
+ padding-bottom: 30px;
+ text-align: center;
 }
